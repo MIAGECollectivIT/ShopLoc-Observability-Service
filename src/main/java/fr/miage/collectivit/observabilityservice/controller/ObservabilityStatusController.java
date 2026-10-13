@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * documentation.
  */
 @RestController
-@RequestMapping("/api/v1/observability")
+@RequestMapping("/v1/observability")
 @Tag(
     name = "Observability Status",
     description = "Operations related to observability service status")
